@@ -20,8 +20,8 @@ class player
     constructor()
     {
         this.position ={
-            x: 0,
-            y: 0
+            x: canvas.width-200,
+            y: canvas.height-200
         }
         this.velocity ={
             x:0,
